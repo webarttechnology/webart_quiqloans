@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-//define('WP_HOME', 'https://localhost/clean_quiqloans');
-//define('WP_SITEURL', 'https://localhost/clean_quiqloans');
+define('WP_HOME', 'https://localhost/clean_quiqloans');
+define('WP_SITEURL', 'https://localhost/clean_quiqloans');
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
