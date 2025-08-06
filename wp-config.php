@@ -18,6 +18,15 @@
  * @package WordPress
  */
 
+// Define dynamic site URL and home based on environment
+if ($_SERVER['HTTP_HOST'] === 'localhost') {
+    define('WP_HOME', 'http://localhost/clean_quiqloans');
+    define('WP_SITEURL', 'http://localhost/clean_quiqloans');
+} else {
+    define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+    define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+}
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'webart_quiqloans' );
