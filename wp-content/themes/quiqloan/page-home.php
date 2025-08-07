@@ -161,7 +161,7 @@ get_header();
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center mb-5">
-                    <h2 class="heading">Our Funding and Success !!!!</h2>
+                    <h2 class="heading">Our Funding and Success</h2>
                     <p class="text-muted fs-17">Even if your business did not have a revenue reduction or was deemed essential... You can still qualify for ERC!</p>
                 </div>
                 </div><!-- end col-->
